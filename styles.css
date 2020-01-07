@@ -1,3 +1,7 @@
+* {
+    font-family: 'Muli', sans-serif;
+}
+
 body {
     font-family: 'Muli', sans-serif;
     background-color: #F8F8F8;
@@ -93,6 +97,42 @@ h1, h2 {
     margin-top: -15px;
     z-index: 999;
     margin-bottom: 15%;
+}
+
+.contactMe {
+    margin-top: 5%;
+}
+
+.actionBtn {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    width: 250px;
+    height: 50px;
+    /* padding: 10px 10px; */
+    background-color: rgba(73, 90, 157, 1);
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+
+.actionBtn:hover {
+    background-color: rgba(73, 90, 157, 0.8);
+    box-shadow: 0px 2px black;
+    cursor: pointer;
+}
+
+.actionImg {
+    width: 22px;
+    height: 22px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.btnText {
+    align-content: center;
+    margin: 0 auto;
 }
 
 /* rgba(73, 90, 157, 1) */
