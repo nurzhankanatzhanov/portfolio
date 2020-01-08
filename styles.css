@@ -99,8 +99,9 @@ h1, h2 {
     margin-bottom: 15%;
 }
 
-.contactMe {
-    margin-top: 5%;
+.contact {
+    float: left;
+    width: 33.33%;
 }
 
 .actionBtn {
@@ -115,6 +116,9 @@ h1, h2 {
     text-align: center;
     border: none;
     border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .actionBtn:hover {
@@ -130,9 +134,24 @@ h1, h2 {
     vertical-align: middle;
 }
 
-.btnText {
-    align-content: center;
-    margin: 0 auto;
+#email {
+    width: 200px;
 }
+
+#linkedin {
+    margin-right: 10px;
+}
+
+.contactMe {
+    margin-top: 10%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .btnText {
+    align-items: center;
+    margin: 0 auto;
+} */
 
 /* rgba(73, 90, 157, 1) */
