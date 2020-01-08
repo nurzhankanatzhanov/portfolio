@@ -47,6 +47,7 @@ h1, h2 {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 5%;
 }
 
 .icons {
@@ -72,7 +73,7 @@ h1, h2 {
     text-align: center;
 }
 
-.experience:after, .portfolio:after {
+.experience:after {
     content: "";
     display: table;
     clear: both;
@@ -139,15 +140,68 @@ h1, h2 {
 }
 
 .contactMe {
-    margin-top: 10%;
+    margin-top: 2%;
+    margin-bottom: 100px;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
 
-/* .btnText {
-    align-items: center;
-    margin: 0 auto;
-} */
+#line {
+    margin-top: 5%;
+    border-top: 1px solid rgba(73, 90, 157, 1);
+    padding-top: 10px;
+}
 
+.portfTop {
+    color: rgba(73, 90, 157, 1);
+    font-weight: lighter;
+    font-size: 50px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 3%;
+}
+
+.fullPortf {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+
+.portfImg{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.portfText {
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.project {
+    padding: 20px 20px;
+    border: 2px solid darkgray;
+}
+
+.project:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px rgba(73, 90, 157, 0.6);
+}
+
+#sample {
+    width: 80px;
+    height: 80px;
+}
 /* rgba(73, 90, 157, 1) */
+/* #495a9d */
+/* #62499D - analogous color for buttons maybe? */

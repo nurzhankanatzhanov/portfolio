@@ -11,12 +11,14 @@
     <title>Nurzhan Kanatzhanov Personal Portfolio</title>
 </head>
 <body>
+    <!-- PROFILE PICTURE -->
     <div class="center">
         <h1>Nurzhan Kanatzhanov</h1>
         <img src="images/cropped.jpg" alt="avatar" class="avatar">
         <p class="caption">About Me</p>
     </div>
 
+    <!-- INTRO -->
     <div class="experience">
         <div class="icons">
             <img src="images/edu.png" alt="Education" class="icon">
@@ -29,7 +31,7 @@
         <div class="icons">
             <img src="images/exp.png" alt="Skills" class="icon">
             <h2>Skills</h2>
-            <p>I specialize in front-end development using HTML5/CSS/JS, Angular 8, and ReactJS.<br> Other experience includes Java, C++, PHP, TypeScript, Swift, MySQL, and C#.</p>
+            <p>I specialize in front-end development using HTML5/CSS/JS, Angular 8, and ReactJS.<br> My other experience includes Java, C++, PHP, TypeScript, Swift, MySQL, and C#.</p>
         </div>
 
         <div class="icons">
@@ -39,11 +41,41 @@
         </div>
     </div>
 
+    <!-- PORTFOLIO OF PROJECTS -->
     <div class="portfolio">
-        <img src="images/internship.png" alt="Portfolio" class="icon large">
-        <p class="caption">Portfolio</p>
+        <p class="portfTop">My Portfolio</p>
+
+        <div class="fullPortf">
+            <div class="col">
+                <div class="project" id="1">
+                    <img src="images/logo.png" alt="DB^2" class="portfImg">
+                    <p class="portfText">Database Dashboard</p>
+                    <p class="description">
+                        This is a web application that allows users to connect their 
+                        database and view data through chart creation. This was a semester-long project 
+                        for a class called "Software Engineering Workshop" with my teammates Riley McCuen,
+                        Rob Haber, and Ethan Kantor. 
+                    </p>
+                    <!-- think of adding like "tags" for programming languages used -->
+                    <!-- Angular 8, bootstrap, Intro.js, Google Chart API, TypeScript -->
+                </div>
+            </div>
+            <div class="col">
+                <div class="project" id="2" onclick="">
+                    <img src="images/contract.png" alt="DB^2" class="portfImg" id="sample">
+                    <p class="portfText">Writing Sample</p>
+                    <p class="description">
+                        This is my writing sample: a research paper on the ethics of facial recognition
+                        technology with a case-by-case analysis of the benefits and the concerns behind it.s
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
 
+    <div id="line"></div>
+
+    <!-- CONTACTING -->
     <div class="contactMe">
         <div class="contact">
             <button class="actionBtn" onclick="downloadCV();">
