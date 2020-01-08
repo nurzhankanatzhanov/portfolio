@@ -17,3 +17,8 @@ function viewSample(){
     let link = 'https://nurzhankanatzhanov.github.io/portfolio/Final_Project.pdf';
     window.open(link, '_blank');
 }
+
+function viewDB2() {
+    let link = 'https://databasedashboard.co/';
+    window.open(link, '_blank');
+}
