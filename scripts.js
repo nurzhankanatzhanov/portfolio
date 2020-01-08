@@ -12,3 +12,8 @@ function connect(){
     let link = 'https://www.linkedin.com/in/nurzhan-kanatzhanov/';
     window.open(link, '_blank');
 }
+
+function viewSample(){
+    let link = 'https://nurzhankanatzhanov.github.io/portfolio/Final_Project.pdf';
+    window.open(link, '_blank');
+}
