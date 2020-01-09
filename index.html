@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
     <title>Nurzhan Kanatzhanov Personal Portfolio</title>
 </head>
+
 <body>
     <!-- PROFILE PICTURE -->
     <div class="center">
@@ -23,7 +25,8 @@
         <div class="icons">
             <img src="images/edu.png" alt="Education" class="icon">
             <h2>Education</h2>
-            <p>I am a junior pursuing a Bachelor of Science degree in Computer Science with a second major in Finance at 
+            <p>I am a junior pursuing a Bachelor of Science degree in Computer Science with a second major in Finance
+                at
                 Washington University in St. Louis.
             </p>
         </div>
@@ -31,7 +34,8 @@
         <div class="icons">
             <img src="images/exp.png" alt="Skills" class="icon">
             <h2>Skills</h2>
-            <p>I specialize in front-end development using HTML5/CSS/JS, Angular 8, and ReactJS.<br> My other experience includes Java, C++, PHP, TypeScript, Swift, MySQL, and C#.</p>
+            <p>I specialize in front-end development using HTML5/CSS/JS, Angular 8, and ReactJS.<br> My other
+                experience includes Java, C++, PHP, TypeScript, Swift, MySQL, and C#.</p>
         </div>
 
         <div class="icons">
@@ -43,19 +47,19 @@
 
     <!-- PORTFOLIO OF PROJECTS -->
     <div class="portfolio">
-        <p class="portfTop">My Portfolio</p>
+        <p class="portfTop">My Portfolio<span id="cnt">(to be continued...)</span></p>
 
         <div class="fullPortf">
             <div class="col">
                 <!-- DB^2 -->
                 <div class="project" id="1">
-                    <img src="images/logo.png" alt="DB^2" class="portfImg">
+                    <img src="images/vector_logo.png" alt="DB^2" class="portfImg">
                     <p class="portfText">Database Dashboard</p>
                     <p class="description">
-                        This is a web application that allows users to connect their 
-                        database and view and aggregate data through chart creation. This was a semester-long 
-                        project for a class emulating an agile industrial environment (with life-cycle phases) 
-                        with my teammates Riley McCuen, Rob Haber, and Ethan Kantor. 
+                        This is a web application that allows users to connect their
+                        database and view and aggregate data through chart creation. This was a semester-long
+                        project for a class emulating an agile industrial environment (with life-cycle phases)
+                        with my teammates Riley McCuen, Rob Haber, and Ethan Kantor.
                     </p>
                     <!-- think of adding like "tags" for programming languages used -->
                     <!-- Angular 8, bootstrap, Intro.js, Google Chart API, TypeScript -->
@@ -67,24 +71,7 @@
                     </button>
                 </div>
 
-                <div class="project" id="3">
-                        <img src="images/logo.png" alt="DB^2" class="portfImg">
-                        <p class="portfText">Database Dashboard</p>
-                        <p class="description">
-                            This is a web application that allows users to connect their 
-                            database and view and aggregate data through chart creation. This was a semester-long 
-                            project for a class emulating an agile industrial environment (with life-cycle phases) 
-                            with my teammates Riley McCuen, Rob Haber, and Ethan Kantor. 
-                        </p>
-                        <!-- think of adding like "tags" for programming languages used -->
-                        <!-- Angular 8, bootstrap, Intro.js, Google Chart API, TypeScript -->
-    
-                        <button class="actionBtn viewBtn" onclick="viewDB2();">
-                            <div class="btnText">
-                                <span>Visit Website</span>
-                            </div>
-                        </button>
-                    </div>
+                <!-- next project -->
             </div>
             <div class="col">
                 <!-- writing sample -->
@@ -94,8 +81,8 @@
                     <p class="description">
                         This is my writing sample: a research paper on the ethics of facial recognition
                         technology with a case-by-case analysis of the benefits and the concerns behind it.
-                        The paper was intended to be an article in a popular science magazine, with an 
-                        assumption that the audience has some prior knowledge on the topic.  
+                        The paper was intended to be an article in a popular science magazine, with an
+                        assumption that the audience has some prior knowledge on the topic.
                     </p>
                     <button class="actionBtn viewBtn" onclick="viewSample();">
                         <div class="btnText">
@@ -112,13 +99,13 @@
     <!-- CONTACTING -->
     <div class="contactMe">
         <div class="contact">
-            <button class="actionBtn" onclick="downloadCV();">
+            <button class="actionBtn" id="res" onclick="downloadCV();">
                 <div class="btnText">
                     <img src="images/curriculum.png" alt="Resume" class="actionImg">
-                    <span>Download Résumé</span>
+                    <span>View Résumé</span>
                 </div>
             </button>
-        </div>   
+        </div>
 
         <div class="contact">
             <button class="actionBtn" id="email" onclick="emailMe();">
@@ -127,7 +114,7 @@
                     <span>Email Me</span>
                 </div>
             </button>
-        </div>  
+        </div>
 
         <div class="contact">
             <button class="actionBtn" onclick="connect();">
@@ -141,4 +128,5 @@
 
     <script src="scripts.js"></script>
 </body>
+
 </html>

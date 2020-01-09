@@ -106,7 +106,7 @@ h1, h2 {
     font-size: 16px;
     font-weight: bold;
     color: white;
-    width: 250px;
+    width: 220px;
     height: 50px;
     background-color: rgba(73, 90, 157, 1);
     text-transform: uppercase;
@@ -131,7 +131,7 @@ h1, h2 {
     vertical-align: middle;
 }
 
-#email {
+#email, #res {
     width: 200px;
 }
 
@@ -164,6 +164,11 @@ h1, h2 {
     margin-bottom: 3%;
 }
 
+#cnt {
+    font-size: 11px;
+    letter-spacing: normal;
+}
+
 .fullPortf {
     width: 95%;
     margin-left: auto;
@@ -172,7 +177,7 @@ h1, h2 {
 
 .col {
     display: inline-block;
-    width: 49%;
+    width: 49.7%;
     vertical-align: top;
 }
 
@@ -191,6 +196,11 @@ h1, h2 {
 .project {
     padding: 20px 20px;
     background-color: #DFDFDF;
+    margin-bottom: 1%;
+}
+
+.project:hover {
+    background-color: #C6C6C6;
 }
 
 #sample {
