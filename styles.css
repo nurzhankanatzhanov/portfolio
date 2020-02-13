@@ -283,8 +283,8 @@ h1, h2 {
     }
 
     .avatar {
-        height: 30%;
-        width: 30%;
+        height: 45%;
+        width: 45%;
     }
 
     .col {
@@ -319,8 +319,8 @@ h1, h2 {
 
 @media screen and (max-width: 350px) {
     .avatar {
-        height: 35%;
-        width: 35%;
+        height: 45%;
+        width: 45%;
     }
     .caption {
         font-size: 13px;
