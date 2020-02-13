@@ -217,6 +217,124 @@ h1, h2 {
     background-color: #8C499D;
 }
 
+#note {
+    text-decoration: underline;
+}
+
+#desc2 {
+    padding-bottom: 60px;
+}
+
+@media screen and (max-width: 800px) {
+    .experience {
+        margin-top: 8%;
+    }
+
+    .portfTop {
+        font-size: 40px;
+    }
+
+    #cnt {
+        font-size: 10px;
+    }
+
+    .col {
+        width: 49.3%;
+    }
+
+    .avatar {
+        height: 25%;
+        width: 25%;
+    }
+
+    #desc2 {
+        padding-bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .experience {
+        margin-top: 12%;
+    }
+
+    .icons {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .icons p {
+        font-size: 14px;
+    }
+
+    .icon {
+        margin-bottom: -5%;
+    }
+
+    .portfTop {
+        font-size: 28px;
+    }
+
+    #cnt {
+        font-size: 8px;
+    }
+
+    .caption {
+        padding: 5px 15px;
+    }
+
+    .avatar {
+        height: 30%;
+        width: 30%;
+    }
+
+    .col {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    #desc2 {
+        padding-bottom: 10px;
+    }
+
+    .contact {
+        width: 100%;
+        margin-bottom: 3%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .portfolio {
+        width: 95%;
+    }
+
+    .portfTop {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .avatar {
+        height: 35%;
+        width: 35%;
+    }
+    .caption {
+        font-size: 13px;
+        padding: 5px 10px;
+    }
+
+    .portfolio {
+        width: 99%;
+    }
+
+    .portfTop {
+        font-size: 22px;
+    }
+
+    #cnt {
+        font-size: 7px;
+    }
+}
+
 /* rgba(73, 90, 157, 1) */
 /* #495a9d */
 /* #62499D - analogous color for buttons maybe? */
