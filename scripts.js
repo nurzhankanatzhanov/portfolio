@@ -1,5 +1,5 @@
 function downloadCV(){
-   let link = 'https://nurzhankanatzhanov.github.io/portfolio/resume.pdf';
+   let link = 'https://nurzhankanatzhanov.github.io/portfolio/Resume_Tech.pdf';
     window.open(link, '_blank');
 }
 
