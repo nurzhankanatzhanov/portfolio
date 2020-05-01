@@ -24,14 +24,15 @@ function viewDB2() {
 }
 
 function viewHTML(c) {
+    var link = "";
     if (c === 1){
-        let link = 'https://nurzhankanatzhanov.github.io/portfolio/lyrics_comparison.html';
+        link = 'https://nurzhankanatzhanov.github.io/portfolio/lyrics_comparison.html';
     }
     else if (c === 2){
-        let link = 'https://nurzhankanatzhanov.github.io/portfolio/lyrics_comparison.pdf';
+        link = 'https://nurzhankanatzhanov.github.io/portfolio/lyrics_comparison.pdf';
     }
     else if (c === 3){
-        let link = 'https://nurzhankanatzhanov.github.io/portfolio/lyrics_comparison.ipynb';
+        link = 'https://nurzhankanatzhanov.github.io/portfolio/lyrics_comparison.ipynb';
     }
     else{
         alert("Error")
