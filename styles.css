@@ -225,6 +225,16 @@ h1, h2 {
     padding-bottom: 60px;
 }
 
+.python {
+    width: 99%;
+}
+
+#ipynbbutton, #pdfbutton, #htmlbutton {
+    margin-left: 2%;
+    display: inline-block;
+    width: 30%;
+}
+
 @media screen and (max-width: 800px) {
     .experience {
         margin-top: 8%;

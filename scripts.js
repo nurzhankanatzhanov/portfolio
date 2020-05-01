@@ -22,3 +22,20 @@ function viewDB2() {
     let link = 'https://databasedashboard.co/';
     window.open(link, '_blank');
 }
+
+function viewHTML(c) {
+    if (c === 1){
+        let link = 'https://nurzhankanatzhanov.github.io/portfolio/lyrics_comparison.html';
+    }
+    else if (c === 2){
+        let link = 'https://nurzhankanatzhanov.github.io/portfolio/lyrics_comparison.pdf';
+    }
+    else if (c === 3){
+        let link = 'https://nurzhankanatzhanov.github.io/portfolio/lyrics_comparison.ipynb';
+    }
+    else{
+        alert("Error")
+    }
+
+    window.open(link, '_blank');
+}
