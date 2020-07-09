@@ -1,166 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Personal portfolio website of Nurzhan Kanatzhanov">
-    <meta name="author" content="Nurzhan Kanatzhanov">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Personal portfolio website of Nurzhan Kanatzhanov"
+    />
+    <meta name="author" content="Nurzhan Kanatzhanov" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli&display=swap"
+      rel="stylesheet"
+    />
     <title>Nurzhan Kanatzhanov Personal Portfolio</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- PROFILE PICTURE -->
     <div class="center">
-        <h1>Nurzhan Kanatzhanov</h1>
-        <img src="images/cropped.jpg" alt="avatar" class="avatar">
-        <p class="caption">About Me</p>
+      <h1>Nurzhan Kanatzhanov</h1>
+      <img src="images/cropped.jpg" alt="avatar" class="avatar" />
+      <p class="caption">About Me</p>
     </div>
 
     <!-- INTRO -->
     <div class="experience">
-        <div class="icons">
-            <img src="images/edu.png" alt="Education" class="icon">
-            <h2>Education</h2>
-            <p>I am a junior pursuing a Bachelor of Science degree in Computer Science with a second major in Finance
-                at
-                Washington University in St. Louis.
-            </p>
-        </div>
+      <div class="icons">
+        <img src="images/edu.png" alt="Education" class="icon" />
+        <h2>Education</h2>
+        <p>
+          I am a junior pursuing a Bachelor of Science degree in Computer
+          Science with a second major in Finance at Washington University in St.
+          Louis.
+        </p>
+      </div>
 
-        <div class="icons">
-            <img src="images/exp.png" alt="Skills" class="icon">
-            <h2>Skills</h2>
-            <p>I specialize in front-end development using HTML5/CSS/JS, Angular 8, and ReactJS.<br> My other
-                experience includes Java, C++, PHP, TypeScript, Swift, MySQL, and C#.</p>
-        </div>
+      <div class="icons">
+        <img src="images/atom.png" alt="Skills" class="icon" />
+        <h2>Skills</h2>
+        <p>
+          I specialize in front-end development using HTML5/CSS/JS, Angular 8,
+          and ReactJS.<br />
+          My other experience includes Java, C++, PHP, TypeScript, Swift, MySQL,
+          and C#.
+        </p>
+      </div>
 
-        <div class="icons">
-            <img src="images/lang.png" alt="Languages" class="icon">
-            <h2>Languages</h2>
-            <p>I am fluent in English, Russian, and Kazakh languages.</p>
-        </div>
+      <div class="icons">
+        <img src="images/lang.png" alt="Languages" class="icon" />
+        <h2>Languages</h2>
+        <p>I am fluent in English, Russian, and Kazakh languages.</p>
+      </div>
     </div>
 
     <!-- PORTFOLIO OF PROJECTS -->
     <div class="portfolio">
-        <p class="portfTop">My Portfolio<span id="cnt">(to be continued...)</span></p>
+      <p class="portfTop">
+        My Portfolio<span id="cnt">(to be continued...)</span>
+      </p>
 
-        <div class="fullPortf">
-            <div class="col">
-                <!-- DB^2 -->
-                <div class="project" id="project1">
-                    <img src="images/vector_logo.png" alt="DB^2" class="portfImg">
-                    <p class="portfText">Database Dashboard</p>
-                    <p class="description">
-                        This is a web application that allows users to connect their
-                        database and view and aggregate data through chart creation. This was a semester-long
-                        project for a class emulating an agile industrial environment (with life-cycle phases)
-                        with my teammates Riley McCuen, Rob Haber, and Ethan Kantor. <br><br>
-                        <span id="note">Note</span>: please use our test account <em>rob@dwhaber.com</em> with the password 
-                        <em>robrob</em>.
-                    </p>
-                    <!-- think of adding like "tags" for programming languages used -->
-                    <!-- Angular 8, bootstrap, Intro.js, Google Chart API, TypeScript -->
+      <div class="fullPortf">
+        <div class="col">
+          <!-- DB^2 -->
+          <div class="project" id="project1">
+            <img src="images/vector_logo.png" alt="DB^2" class="portfImg" />
+            <p class="portfText">Database Dashboard</p>
+            <p class="description">
+              This is a web application that allows users to connect their
+              database and view and aggregate data through chart creation. This
+              was a semester-long project for a class emulating an agile
+              industrial environment (with life-cycle phases) with my teammates
+              Riley McCuen, Rob Haber, and Ethan Kantor. <br /><br />
+              <span id="note">Note</span>: please use our test account
+              <em>rob@dwhaber.com</em> with the password <em>robrob</em>.
+            </p>
+            <!-- think of adding like "tags" for programming languages used -->
+            <!-- Angular 8, bootstrap, Intro.js, Google Chart API, TypeScript -->
 
-                    <button class="actionBtn viewBtn" onclick="viewDB2();">
-                        <div class="btnText">
-                            <span>Visit Website</span>
-                        </div>
-                    </button>
-                </div>
+            <button class="actionBtn viewBtn" onclick="viewDB2();">
+              <div class="btnText">
+                <span>Visit Website</span>
+              </div>
+            </button>
+          </div>
 
-                <!-- next project -->
-            </div>
-            <div class="col">
-                <!-- writing sample -->
-                <div class="project" id="project2">
-                    <img src="images/contract.png" alt="document" class="portfImg" id="sample">
-                    <p class="portfText">Writing Sample</p>
-                    <p class="description" id="desc2">
-                        This is my writing sample: a research paper on the ethics of facial recognition
-                        technology with a case-by-case analysis of the benefits and the concerns behind it.
-                        The paper was intended to be an article in a popular science magazine, with an
-                        assumption that the audience has some prior knowledge on the topic.
-                    </p>
-                    <button class="actionBtn viewBtn" onclick="viewSample();">
-                        <div class="btnText">
-                            <span>View Sample</span>
-                        </div>
-                    </button>
-                </div>
-            </div>
-            <div class="col">
-                <!-- Jupyter Notebook -->
-                <div class="project" id="project3">
-                    <img src="images/py.png" alt="Python" class="portfImg" id="py">
-                    <p class="portfText">Music Lyrics Text Analysis</p>
-                    <p class="description" id="desc3">
-                        This is a side project I worked on to play around with some text analysis and
-                        machine learning libraries to learn <b>Python</b>. I compared the style/word choice of 
-                        two of my favorite music artists—Drake and Kanye West. I saved each of their albums 
-                        in .txt format and used Python's <i>scikit-learn</i> library to compare them based on
-                        (1) word frequencies and (2) topics. You can check out my Jupyter notebook below (in 
-                        3 different versions)!
-                    </p>
-                    <div class="python">
-                        <button class="actionBtn viewBtn" id="htmlbutton" onclick="viewHTML(1);">
-                            <div class="btnText">
-                                <span>HTML</span>
-                            </div>
-                        </button>
-                        <button class="actionBtn viewBtn" id="pdfbutton" onclick="viewHTML(2);">
-                            <div class="btnText">
-                                <span>PDF</span>
-                            </div>
-                        </button>
-                        <button class="actionBtn viewBtn" id="ipynbbutton"onclick="viewHTML(3);">
-                            <div class="btnText">
-                                <span>IPYNB</span>
-                            </div>
-                        </button>
-                    </div>
-                </div>
-            </div>
+          <!-- next project -->
         </div>
+        <div class="col">
+          <!-- writing sample -->
+          <div class="project" id="project2">
+            <img
+              src="images/contract.png"
+              alt="document"
+              class="portfImg"
+              id="sample"
+            />
+            <p class="portfText">Writing Sample</p>
+            <p class="description" id="desc2">
+              This is my writing sample: a research paper on the ethics of
+              facial recognition technology with a case-by-case analysis of the
+              benefits and the concerns behind it. The paper was intended to be
+              an article in a popular science magazine, with an assumption that
+              the audience has some prior knowledge on the topic.
+            </p>
+            <button class="actionBtn viewBtn" onclick="viewSample();">
+              <div class="btnText">
+                <span>View Sample</span>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div class="col">
+          <!-- Jupyter Notebook -->
+          <div class="project" id="project3">
+            <img src="images/py.png" alt="Python" class="portfImg" id="py" />
+            <p class="portfText">Music Lyrics Text Analysis</p>
+            <p class="description" id="desc3">
+              This is a side project I worked on to play around with some text
+              analysis and machine learning libraries to learn <b>Python</b>. I
+              compared the style/word choice of two of my favorite music
+              artists—Drake and Kanye West. I saved each of their albums in .txt
+              format and used Python's <i>scikit-learn</i> library to compare
+              them based on (1) word frequencies and (2) topics. You can check
+              out my Jupyter notebook below (in 3 different versions)!
+            </p>
+            <div class="python">
+              <button
+                class="actionBtn viewBtn"
+                id="htmlbutton"
+                onclick="viewHTML(1);"
+              >
+                <div class="btnText">
+                  <span>HTML</span>
+                </div>
+              </button>
+              <button
+                class="actionBtn viewBtn"
+                id="pdfbutton"
+                onclick="viewHTML(2);"
+              >
+                <div class="btnText">
+                  <span>PDF</span>
+                </div>
+              </button>
+              <button
+                class="actionBtn viewBtn"
+                id="ipynbbutton"
+                onclick="viewHTML(3);"
+              >
+                <div class="btnText">
+                  <span>IPYNB</span>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div id="line"></div>
 
     <!-- CONTACTING -->
     <div class="contactMe">
-        <div class="contact">
-            <button class="actionBtn" id="res" onclick="downloadCV();">
-                <div class="btnText">
-                    <img src="images/curriculum.png" alt="Resume" class="actionImg">
-                    <span>View Résumé</span>
-                </div>
-            </button>
-        </div>
+      <div class="contact">
+        <button class="actionBtn" id="res" onclick="downloadCV();">
+          <div class="btnText">
+            <img src="images/curriculum.png" alt="Resume" class="actionImg" />
+            <span>View Résumé</span>
+          </div>
+        </button>
+      </div>
 
-        <div class="contact">
-            <button class="actionBtn" id="email" onclick="emailMe();">
-                <div class="btnText">
-                    <img src="images/email.png" alt="My email" class="actionImg">
-                    <span>Email Me</span>
-                </div>
-            </button>
-        </div>
+      <div class="contact">
+        <button class="actionBtn" id="email" onclick="emailMe();">
+          <div class="btnText">
+            <img src="images/email.png" alt="My email" class="actionImg" />
+            <span>Email Me</span>
+          </div>
+        </button>
+      </div>
 
-        <div class="contact">
-            <button class="actionBtn" onclick="connect();">
-                <div class="btnText">
-                    <img src="images/linkedin.png" alt="LinkedIn" class="actionImg" id="linkedin">
-                    <span>Connect with Me</span>
-                </div>
-            </button>
-        </div>
+      <div class="contact">
+        <button class="actionBtn" onclick="connect();">
+          <div class="btnText">
+            <img
+              src="images/linkedin.png"
+              alt="LinkedIn"
+              class="actionImg"
+              id="linkedin"
+            />
+            <span>Connect with Me</span>
+          </div>
+        </button>
+      </div>
     </div>
 
     <script src="scripts.js"></script>
-</body>
-
+  </body>
 </html>
