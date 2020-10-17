@@ -1,6 +1,6 @@
 // button scripts
 function downloadCV() {
-  let link = "https://nurzhankanatzhanov.github.io/portfolio/resume.pdf";
+  let link = "https://nurzhankanatzhanov.github.io/portfolio/Resume.pdf";
   window.open(link, "_blank");
 }
 
