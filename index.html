@@ -31,9 +31,9 @@
         <img src="images/edu.png" alt="Education" class="icon" />
         <h2>Education</h2>
         <p>
-          I am a senior pursuing a joint BS/MS degree in Computer
-          Science with a second major in Finance at Washington University in St.
-          Louis. My anticipated graduation date is December 2021.
+          I am a senior pursuing a joint BS/MS degree in Computer Science with a
+          second major in Finance at Washington University in St. Louis. My
+          anticipated graduation date is December 2021.
         </p>
       </div>
 
@@ -41,10 +41,10 @@
         <img src="images/atom.png" alt="Skills" class="icon" />
         <h2>Skills</h2>
         <p>
-          I specialize in front-end development using HTML5/CSS/JavaScript (ES6+),
-          and React (Node.js, Redux, Next.js).<br />
-          My other experience includes Python, Java, C++, PHP, TypeScript, Swift, MySQL,
-          and C#.
+          I specialize in front-end development using HTML5/CSS/JavaScript
+          (ES6+), and React (Node.js, Redux, Next.js).<br />
+          My other experience includes Python, Java, C++, PHP, TypeScript,
+          Swift, MySQL, and C#.
         </p>
       </div>
 
@@ -61,101 +61,120 @@
         My Portfolio<span id="cnt">(to be continued...)</span>
       </p>
 
-      <div class="fullPortf">
-        <div class="col">
-          <!-- DB^2 -->
-          <div class="project" id="project1">
-            <img src="images/vector_logo.png" alt="DB^2" class="portfImg" />
-            <p class="portfText">Database Dashboard</p>
-            <p class="description">
-              This is a web application that allows users to connect their
-              database and view and aggregate data through chart creation. This
-              was a semester-long project for a class emulating an agile
-              industrial environment (with life-cycle phases) with my teammates
-              Riley McCuen, Rob Haber, and Ethan Kantor. <br /><br />
-              <span id="note">Note</span>: please use our test account
-              <em>rob@dwhaber.com</em> with the password <em>robrob</em>.
-            </p>
-            <!-- think of adding like "tags" for programming languages used -->
-            <!-- Angular 8, bootstrap, Intro.js, Google Chart API, TypeScript -->
+      <!-- first flex container -->
+      <div class="flex-container">
+        <!-- Database dashboard DB^2-->
+        <div class="column">
+          <img src="images/vector_logo.png" alt="DB^2" class="portfImg" />
+          <p class="portfText">Database Dashboard</p>
+          <p class="description">
+            This is a web application that allows users to connect their
+            database and view and aggregate data through chart creation. This
+            was a semester-long project for a class emulating an agile
+            industrial environment (with life-cycle phases) with my teammates
+            Riley McCuen, Rob Haber, and Ethan Kantor. <br /><br />
+            <span id="note">Note</span>: please use our test account
+            <em>rob@dwhaber.com</em> with the password <em>robrob</em>.
+          </p>
+          <p></p>
+          <!-- think of adding like "tags" for programming languages used -->
+          <!-- Angular 8, bootstrap, Intro.js, Google Chart API, TypeScript -->
 
-            <button class="actionBtn viewBtn" onclick="viewDB2();">
-              <div class="btnText">
-                <span>Visit Website</span>
-              </div>
-            </button>
-          </div>
-
-          <!-- next project -->
-        </div>
-        <div class="col">
-          <!-- writing sample -->
-          <div class="project" id="project2">
-            <img
-              src="images/contract.png"
-              alt="document"
-              class="portfImg"
-              id="sample"
-            />
-            <p class="portfText">Writing Sample</p>
-            <p class="description" id="desc2">
-              This is my writing sample: a research paper on the ethics of
-              facial recognition technology with a case-by-case analysis of the
-              benefits and the concerns behind it. The paper was intended to be
-              an article in a popular science magazine, with an assumption that
-              the audience has some prior knowledge on the topic.
-            </p>
-            <button class="actionBtn viewBtn" onclick="viewSample();">
-              <div class="btnText">
-                <span>View Sample</span>
-              </div>
-            </button>
-          </div>
-        </div>
-        <div class="col">
-          <!-- Jupyter Notebook -->
-          <div class="project" id="project3">
-            <img src="images/py.png" alt="Python" class="portfImg" id="py" />
-            <p class="portfText">Music Lyrics Text Analysis</p>
-            <p class="description" id="desc3">
-              This is a side project I worked on to play around with some text
-              analysis and machine learning libraries to learn <b>Python</b>. I
-              compared the style/word choice of two of my favorite music
-              artists—Drake and Kanye West. I saved each of their albums in .txt
-              format and used Python's <i>scikit-learn</i> library to compare
-              them based on (1) word frequencies and (2) topics. You can check
-              out my Jupyter notebook below (in 3 different versions)!
-            </p>
-            <div class="python">
-              <button
-                class="actionBtn viewBtn"
-                id="htmlbutton"
-                onclick="viewHTML(1);"
-              >
-                <div class="btnText">
-                  <span>HTML</span>
-                </div>
-              </button>
-              <button
-                class="actionBtn viewBtn"
-                id="pdfbutton"
-                onclick="viewHTML(2);"
-              >
-                <div class="btnText">
-                  <span>PDF</span>
-                </div>
-              </button>
-              <button
-                class="actionBtn viewBtn"
-                id="ipynbbutton"
-                onclick="viewHTML(3);"
-              >
-                <div class="btnText">
-                  <span>IPYNB</span>
-                </div>
-              </button>
+          <button class="actionBtn viewBtn" onclick="viewDB2();">
+            <div class="btnText">
+              <span>Visit Website</span>
             </div>
+          </button>
+        </div>
+
+        <!-- Burger Builder App -->
+        <div class="column">
+          <img src="images/atom2.png" alt="document" class="portfImg" />
+          <p class="portfText">Burger Builder React App</p>
+          <p class="description">
+            The Burger Builder app lets you build a burger with any amount of
+            salad, cheese, meat, and bacon (how self-explanatory 🙄). You can
+            also sign up and view your previous orders. It is also
+            mobile-friendly! I have built this React app while taking an online
+            course learning React by
+            <a href="https://twitter.com/maxedapps?lang=en">@maxedapps</a>. I
+            also used Firebase hosting and Redux for this React application.
+          </p>
+          <button class="actionBtn viewBtn" onclick="viewUdemy();">
+            <div class="btnText">
+              <span>Visit Website</span>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <!-- next container flex -->
+      <div class="flex-container">
+        <!-- Python machine learning music lyrics -->
+        <div class="column">
+          <img src="images/py.png" alt="Python" class="portfImg" id="py" />
+          <p class="portfText">Music Lyrics Text Analysis</p>
+          <p class="description">
+            This is a side project I worked on to play around with some text
+            analysis and machine learning libraries to learn <b>Python</b>. I
+            compared the style/word choice of two of my favorite music
+            artists—Drake and Kanye West. I saved each of their albums in .txt
+            format and used Python's <i>scikit-learn</i> library to compare them
+            based on (1) word frequencies and (2) topics. You can check out my
+            Jupyter notebook below (in 3 different versions)!
+          </p>
+          <div class="python">
+            <button
+              class="actionBtn viewBtn"
+              id="htmlbutton"
+              onclick="viewHTML(1);"
+            >
+              <div class="btnText">
+                <span>HTML</span>
+              </div>
+            </button>
+            <button
+              class="actionBtn viewBtn"
+              id="pdfbutton"
+              onclick="viewHTML(2);"
+            >
+              <div class="btnText">
+                <span>PDF</span>
+              </div>
+            </button>
+            <button
+              class="actionBtn viewBtn"
+              id="ipynbbutton"
+              onclick="viewHTML(3);"
+            >
+              <div class="btnText">
+                <span>IPYNB</span>
+              </div>
+            </button>
           </div>
+        </div>
+
+        <!-- Writing Sample -->
+        <div class="column">
+          <img
+            src="images/contract.png"
+            alt="document"
+            class="portfImg"
+            id="sample"
+          />
+          <p class="portfText">Writing Sample</p>
+          <p class="description">
+            This is my writing sample: a research paper on the ethics of facial
+            recognition technology with a case-by-case analysis of the benefits
+            and the concerns behind it. The paper was intended to be an article
+            in a popular science magazine, with an assumption that the audience
+            has some prior knowledge on the topic.
+          </p>
+          <button class="actionBtn viewBtn" onclick="viewSample();">
+            <div class="btnText">
+              <span>View Sample</span>
+            </div>
+          </button>
         </div>
       </div>
     </div>
